@@ -1,6 +1,15 @@
+h1 {
+    color: black;
+    transition: color 1.0s;
+}
+h1:hover {
+    color: red;
+}
+
 div.pics {
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 img {
@@ -9,8 +18,9 @@ img {
     height: 80vh;
     width: auto;
     border: 1px solid black;
+    transition: height 1.0s;
 }
 
-p.pic_info {
-    text-align: center;
+img:hover {
+    height: 90vh
 }
