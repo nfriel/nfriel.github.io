@@ -1,0 +1,16 @@
+div.pics {
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    /* Prevent horizontal stretching*/
+    align-self: center;
+    height: 80vh;
+    width: auto;
+    border: 1px solid black;
+}
+
+p.pic_info {
+    text-align: center;
+}
